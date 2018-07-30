@@ -150,12 +150,13 @@ prediction = tf.nn.softmax(tf.matmul(h_fc1_drop, W_fc2) + b_fc2)
 '''
 cross_entropy = tf.reduce_mean(- tf.reduce_sum(y * tf.log(prediction), reduction_indices=[1]))
 train_step = tf.train.AdamOptimizer(1e-4).minimize(cross_entropy)
+saver = tf.train.Saver()
 
 # sess = tf.Session()
 sess = tf.InteractiveSession()
 # important step
 sess.run(tf.global_variables_initializer())
-
+saver.save(sess, "./mybet/save_net.ckpt")
 for i in range(1000):
     batch_xs_data, batch_ys = mnist.train.next_batch(100)
     sess.run(train_step, feed_dict={x_input: batch_xs_data, y: batch_ys, keep_prob: 0.7})
