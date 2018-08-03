@@ -17,7 +17,7 @@ optimizer = tf.train.GradientDescentOptimizer(0.5)  # 0.5 is the learning_rate
 train = optimizer.minimize(loss)
 
 
-init = tf.global_variables_initializer() # to init all the variable int the pic with struct we made what above
+init = tf.global_variables_initializer()  # to init all the variable int the pic with struct we made what above
 
 ### create tensorflow end ###
 
@@ -27,5 +27,5 @@ sess.run(init)  ## to do  ##
 
 for step in range(201):
     sess.run(train)
-    if step %20 ==0:
+    if step % 20 == 0:
         print(step, sess.run(Weights), sess.run(baises))

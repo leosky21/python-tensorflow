@@ -10,10 +10,10 @@ product = tf.matmul(matrix1, matrix2) ## matrix multiply np.dot(m1,m2)
 
 with tf.Session() as s:   ## we open this sesson , and please python help me to close it
     result = s.run(product)
-    print result
+    print (result)
 
 ## method sec
 sess = tf.Session()
 result2 = sess.run(product)
-print result2
+print (result2)
 sess.close()

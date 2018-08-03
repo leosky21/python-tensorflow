@@ -69,7 +69,7 @@ for i in range(1000):
     sess.run(train_step, feed_dict={xs: x_data, ys: y_data})
     if i % 50 == 0:
 ## to see the improvement
-        print sess.run(loss, feed_dict={xs: x_data, ys: y_data})
+        print (sess.run(loss, feed_dict={xs: x_data, ys: y_data}))
 
         prediction_value = sess.run(prediction, feed_dict={xs: x_data,ys: y_data})
         lines = ax.plot(x_data, prediction_value, 'r-', lw=5)

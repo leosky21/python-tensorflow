@@ -2,6 +2,7 @@
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
+
 '''
  generally , we use linear function instead of custom function
      define four parameters in function add_layer:
@@ -14,16 +15,16 @@ import matplotlib.pyplot as plt
 
 def add_layer(inputs, in_size, out_size, n_layer, activation_function=None):
     layer_name = 'layer%s' % n_layer
-    with tf.name_scope("layer"):
+    with tf.name_scope(layer_name):
         with tf.name_scope('weights'):
-    ## normal_distribution is better than zeros ##
+            ## normal_distribution is better than zeros ##
             Layer_Weights = tf.Variable(tf.random_normal([in_size, out_size]), name='W')
-            tf.summary.histogram(layer_name+"/weights", Layer_Weights)
-    ## donnot recommend zero ##
+            tf.summary.histogram(layer_name + "/weights", Layer_Weights)
+        ## donnot recommend zero ##
         with tf.name_scope("biases"):
             biases = tf.Variable(tf.zeros([1, out_size]) + 0.1, name='biases')
             tf.summary.histogram(layer_name + "/biases", biases)
-    ## the unactivatived value of the neural netework ##
+        ## the unactivatived value of the neural netework ##
         with tf.name_scope("Wx_plus_b"):
             Wx_plus_b = tf.matmul(inputs, Layer_Weights) + biases
 
@@ -34,11 +35,12 @@ def add_layer(inputs, in_size, out_size, n_layer, activation_function=None):
         tf.summary.histogram(layer_name + "/outputs", outputs)
         return outputs
 
+
 ## train data, to simulate the data we need to train
-x_data = np.linspace(-1, 1, 300)[:, np.newaxis] # 300line
-noise = np.random.normal(0, 0.05, x_data.shape) # variance(mean) is 0.05 , type is the same to x_data
+x_data = np.linspace(-1, 1, 300)[:, np.newaxis]  # 300line
+noise = np.random.normal(0, 0.05, x_data.shape)  # variance(mean) is 0.05 , type is the same to x_data
 ## the norm data
-y_data = np.square(x_data) - 0.5+noise
+y_data = np.square(x_data) - 0.5 + noise
 
 '''
  the data trim to be input , tell the system : i am going to enter some data like this
@@ -61,14 +63,13 @@ prediction = add_layer(layer1, 10, 1, n_layer=2, activation_function=None)
 ## the difference between prediction  and y_data  which is the norm(real) data ##
 with tf.name_scope(name='loss'):
     loss = tf.reduce_mean(tf.reduce_sum(tf.square(ys - prediction),
-                                    reduction_indices=[1]))
+                                        reduction_indices=[1]))
     tf.summary.scalar('loss', loss)
 with tf.name_scope(name='train_step'):
     train_step = tf.train.GradientDescentOptimizer(0.1).minimize(loss)  ## learning rate. to minimize(reduce) the loss
 
 with tf.name_scope(name='init_op'):
     init_op = tf.global_variables_initializer()
-
 
 sess = tf.Session()
 merged = tf.summary.merge_all()
@@ -84,8 +85,8 @@ plt.show()
 for i in range(1000):
     sess.run(train_step, feed_dict={xs: x_data, ys: y_data})
     if i % 50 == 0:
-## to see the improvement
-        print(sess.run(loss, feed_dict={xs: x_data, ys: y_data}))
+        ## to see the improvement
+        print("loss ::", sess.run(loss, feed_dict={xs: x_data, ys: y_data}))
         result = sess.run(merged, feed_dict={xs: x_data, ys: y_data})
 
         prediction_value = sess.run(prediction, feed_dict={xs: x_data, ys: y_data})
@@ -95,7 +96,7 @@ for i in range(1000):
         plt.pause(0.4)
         try:
             ax.lines.remove(lines[0])
-        except Exception :
+        except Exception:
             pass
 sess.close()
 

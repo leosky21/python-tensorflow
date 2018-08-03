@@ -13,7 +13,7 @@ import tensorflow as tf
 
 def add_layer(inputs, in_size, out_size, activation_function=None):
     ## normal_distribution is better than zeros ##
-    Layer_Weights = tf.Variable(tf.random_normal(in_size, out_size))
+    Layer_Weights = tf.Variable(tf.random_normal([in_size, out_size]))
     ## donnot recommend zero ##
     biases = tf.Variable(tf.zeros([1., out_size]) + 0.1)
 
