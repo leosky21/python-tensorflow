@@ -1,2 +1,9 @@
+.gitignore
+.idea/*
 tensorflow_CIFAR/read/*
 tensorflow_CIFAR/tmp/*
+logs/*
+mybet/*
+*.zip
+autoEncoder/*
+MNIST_data

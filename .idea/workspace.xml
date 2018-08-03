@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1aa83097-1221-4de6-83ef-2985ca8125d3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/tensorflow_CIFAR/cifar10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensorflow_CIFAR/cifar10_eval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensorflow_CIFAR/cifar10_input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensorflow_CIFAR/cifar10_input_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensorflow_CIFAR/cifar10_multi_gpu_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensorflow_CIFAR/cifar10_train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chpater_tensorflow/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/chpater_tensorflow/fullConnectionTrain.py" beforeDir="false" />
@@ -23,21 +18,70 @@
       <change beforePath="$PROJECT_DIR$/mybet/save_net.ckpt.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/mybet/save_net.ckpt.data-00000-of-00001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybet/save_net.ckpt.index" beforeDir="false" afterPath="$PROJECT_DIR$/mybet/save_net.ckpt.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybet/save_net.ckpt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/mybet/save_net.ckpt.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/__init_CIFAR_download.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_CIFAR/__init_CIFAR_download.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/__autoEncoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/cifar10_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_CIFAR/cifar10_input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/test_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/test_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/test_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/test_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/test_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/test_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/test_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/test_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/test_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/test_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/test_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/test_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/test_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/test_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/read/test_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/tmp/cifar10_data/cifar-10-batches-bin/batches.meta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/tmp/cifar10_data/cifar-10-batches-bin/data_batch_1.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/tmp/cifar10_data/cifar-10-batches-bin/data_batch_2.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/tmp/cifar10_data/cifar-10-batches-bin/data_batch_3.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/tmp/cifar10_data/cifar-10-batches-bin/data_batch_4.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/tmp/cifar10_data/cifar-10-batches-bin/data_batch_5.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/tmp/cifar10_data/cifar-10-batches-bin/readme.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/tmp/cifar10_data/cifar-10-batches-bin/test_batch.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/tmp/cifar10_data/cifar-10-binary.tar.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/__init_MINIST01.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/__init_MINIST02.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/__init_MINIST_saver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/__init_MNIST03.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_MINIST/__init_MNIST03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/__init_MNIST_SAVEDATA_PIC.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_MINIST/__init_MNIST_SAVEDATA_PIC.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/__init_autoEncoder02.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_MINIST/__init_autoEncoder02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/logs/test/events.out.tfevents.1532913905.bogon" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/logs/test/events.out.tfevents.1532913931.bogon" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/logs/test/events.out.tfevents.1532913941.bogon" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/logs/train/events.out.tfevents.1532913905.bogon" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/logs/train/events.out.tfevents.1532913931.bogon" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/logs/train/events.out.tfevents.1532913941.bogon" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/packageInfo.md" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_MINIST/packageInfo.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tensorflow_mofan/__init_Sesion.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_mofan/__init_Sesion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tensorflow_mofan/__init_TensorBoard.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_mofan/__init_TensorBoard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tensorflow_mofan/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_mofan/__init__.py" afterDir="false" />
