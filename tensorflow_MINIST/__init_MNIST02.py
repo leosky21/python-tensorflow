@@ -1,6 +1,4 @@
 # coding:utf-8
-
-
 """
     @introduce:
         prepare data from MINIST  which is a database of writing fonts
@@ -9,6 +7,7 @@
 """
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
+
 
 '''
     @layer
@@ -37,7 +36,7 @@ def add_layer(in_data, in_size, out_size, activation_function=None):
 
 def compute_accuracy(v_xs, v_ys):
     global prediction
-    y_pre = sess.run(prediction, feed_dict={x_input: v_xs, keep_prob: 0.7})
+    y_pre = sess.run(prediction, feed_dict={x_input: v_xs, keep_prob: 1.0})
     correct_prediction = tf.equal(tf.argmax(y_pre, 1), tf.argmax(v_ys, 1))
     accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
     result = sess.run(accuracy, feed_dict={x_input: v_xs, y: v_ys, keep_prob: 0.7})
@@ -87,6 +86,8 @@ def max_pool_2x2(x):
 # number 1 to 10 data
 
 mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
+print("mnist.train.images.shape :", mnist.train.images.shape)
+print("mnist.train.labels.shape ", mnist.train.labels.shape)
 
 '''
     # define placeholder for iputs to network
@@ -96,7 +97,6 @@ mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
 keep_prob = tf.placeholder(tf.float32)
 x_input = tf.placeholder(tf.float32, [None, 784])
 y = tf.placeholder(tf.float32, [None, 10])
-keep_prob = tf.placeholder(tf.float32)
 x_image = tf.reshape(x_input, [-1, 28, 28, 1])
 
 '''
@@ -148,7 +148,7 @@ prediction = tf.nn.softmax(tf.matmul(h_fc1_drop, W_fc2) + b_fc2)
     the error between prediction and real data
     cross_entropy : loss
 '''
-cross_entropy = tf.reduce_mean(- tf.reduce_sum(y * tf.log(prediction), reduction_indices=[1]))
+cross_entropy = - tf.reduce_sum(y * tf.log(prediction), reduction_indices=[1])
 train_step = tf.train.AdamOptimizer(1e-4).minimize(cross_entropy)
 saver = tf.train.Saver()
 
@@ -157,9 +157,9 @@ sess = tf.InteractiveSession()
 # important step
 sess.run(tf.global_variables_initializer())
 saver.save(sess, "./mybet/save_net.ckpt")
-for i in range(1000):
-    batch_xs_data, batch_ys = mnist.train.next_batch(100)
-    sess.run(train_step, feed_dict={x_input: batch_xs_data, y: batch_ys, keep_prob: 0.7})
+for i in range(20000):
+    batch_xs_data, batch_ys = mnist.train.next_batch(50)
+    sess.run(train_step, feed_dict={x_input: batch_xs_data, y: batch_ys, keep_prob: 0.5})
     if i % 100 == 0:
         print(compute_accuracy(
-            mnist.test.images[:10000], mnist.test.labels[:10000]))
+            mnist.test.images, mnist.test.labels))
