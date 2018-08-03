@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1aa83097-1221-4de6-83ef-2985ca8125d3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/tensorflow_CIFAR/cifar10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflow_CIFAR/cifar10_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflow_CIFAR/cifar10_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflow_CIFAR/cifar10_input_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflow_CIFAR/cifar10_multi_gpu_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflow_CIFAR/cifar10_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chpater_tensorflow/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chpater_tensorflow/fullConnectionTrain.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chpater_tensorflow/fullConnectionTrainMore.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chpater_tensorflow/genertorTrain.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chpater_tensorflow/loss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chpater_tensorflow/tensorflow_opt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chpater_tensorflow/tf_fullConnection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/test/events.out.tfevents.1532912741.bogon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/train/events.out.tfevents.1532912741.bogon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybet/save_net.ckpt.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/mybet/save_net.ckpt.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybet/save_net.ckpt.index" beforeDir="false" afterPath="$PROJECT_DIR$/mybet/save_net.ckpt.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybet/save_net.ckpt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/mybet/save_net.ckpt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_CIFAR/__init_CIFAR_download.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_CIFAR/__init_CIFAR_download.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/__autoEncoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/__init_MINIST01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/__init_MINIST02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/__init_MINIST_saver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/__init_MNIST03.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_MINIST/__init_MNIST03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/__init_MNIST_SAVEDATA_PIC.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_MINIST/__init_MNIST_SAVEDATA_PIC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/__init_autoEncoder02.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_MINIST/__init_autoEncoder02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/logs/test/events.out.tfevents.1532913905.bogon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/logs/test/events.out.tfevents.1532913931.bogon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/logs/test/events.out.tfevents.1532913941.bogon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/logs/train/events.out.tfevents.1532913905.bogon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/logs/train/events.out.tfevents.1532913931.bogon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/logs/train/events.out.tfevents.1532913941.bogon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_MINIST/packageInfo.md" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_MINIST/packageInfo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_mofan/__init_Sesion.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_mofan/__init_Sesion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_mofan/__init_TensorBoard.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_mofan/__init_TensorBoard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_mofan/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_mofan/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_mofan/__init_add_layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_mofan/__init_add_layer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_mofan/__init_placeholder.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_mofan/__init_placeholder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_mofan/__init_visualization.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_mofan/__init_visualization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/base/BaseEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/base/BaseEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/base/BaseEnums.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/base/BaseEnums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/base/JacksonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/base/JacksonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/base/Json详解" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/base/Json详解" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/base/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/base/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/base/Results.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/base/Results.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/base/SellerInfoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/base/SellerInfoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/base/SomeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/base/SomeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/base/SomeOtherEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/base/SomeOtherEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/configure/ConfigureBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/configure/ConfigureBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/configure/ConfigureChapter01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/configure/ConfigureChapter01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/configure/ConfigureCustomBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/configure/ConfigureCustomBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/property/HomePojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/java/com/example/chapter01/property/HomePojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/resources/chapter01.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/resources/chapter01.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/resources/custom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/resources/custom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/resources/homeproperty.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/Chapter01/src/main/resources/homeproperty.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/MavenDEMO/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/MavenDEMO/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/MavenDEMO/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/MavenDEMO/src/main/java/com/example/demo/HelloControllerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaocommon/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaocommon/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaocommon/target/taotao-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaocommon/target/taotao-common.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/main/java/com/ray/mapper/TbContentCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/main/java/com/ray/mapper/TbContentCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/main/java/com/ray/mapper/TbContentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/main/java/com/ray/mapper/TbContentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/main/java/com/ray/mapper/TbItemCatMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/main/java/com/ray/mapper/TbItemCatMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/main/java/com/ray/mapper/TbItemDescMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/main/java/com/ray/mapper/TbItemDescMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/main/java/com/ray/mapper/TbItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/main/java/com/ray/mapper/TbItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/main/java/com/ray/mapper/TbItemParamItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/main/java/com/ray/mapper/TbItemParamItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/main/java/com/ray/mapper/TbItemParamMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/main/java/com/ray/mapper/TbItemParamMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/main/java/com/ray/mapper/TbOrderItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/main/java/com/ray/mapper/TbOrderItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/main/java/com/ray/mapper/TbOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/main/java/com/ray/mapper/TbOrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/main/java/com/ray/mapper/TbOrderShippingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/main/java/com/ray/mapper/TbOrderShippingMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/main/java/com/ray/mapper/TbUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/main/java/com/ray/mapper/TbUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/src/test/java/com/taotao/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/taotaomanagermapper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/taotaomanagermapper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/target/classes/com/ray/mapper/TbContentCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/target/classes/com/ray/mapper/TbContentCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/target/classes/com/ray/mapper/TbContentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/target/classes/com/ray/mapper/TbContentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/target/classes/com/ray/mapper/TbItemCatMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/target/classes/com/ray/mapper/TbItemCatMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/target/classes/com/ray/mapper/TbItemDescMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/target/classes/com/ray/mapper/TbItemDescMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/target/classes/com/ray/mapper/TbItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/target/classes/com/ray/mapper/TbItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/target/classes/com/ray/mapper/TbItemParamItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/target/classes/com/ray/mapper/TbItemParamItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/target/classes/com/ray/mapper/TbItemParamMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/target/classes/com/ray/mapper/TbItemParamMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/target/classes/com/ray/mapper/TbOrderItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/target/classes/com/ray/mapper/TbOrderItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/target/classes/com/ray/mapper/TbOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/target/classes/com/ray/mapper/TbOrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/target/classes/com/ray/mapper/TbOrderShippingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/target/classes/com/ray/mapper/TbOrderShippingMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/target/classes/com/ray/mapper/TbUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-mapper/target/classes/com/ray/mapper/TbUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-pojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-pojo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-pojo/src/main/java/com/ray/pojo/TbContentCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-pojo/src/main/java/com/ray/pojo/TbContentCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-pojo/target/classes/com/ray/pojo/TbContentCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-pojo/target/classes/com/ray/pojo/TbContentCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/src/main/resources/mybatis/SqlmapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/src/main/resources/mybatis/SqlmapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/src/main/resources/spring/Springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/src/main/resources/spring/Springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/src/main/resources/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/src/main/resources/spring/applicationContext-trans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/src/main/resources/spring/applicationContext-trans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/target/classes/mybatis/SqlmapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/target/classes/mybatis/SqlmapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/target/classes/spring/Springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/target/classes/spring/Springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/target/classes/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/target/classes/spring/applicationContext-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/target/classes/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/target/classes/spring/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/target/classes/spring/applicationContext-trans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/target/classes/spring/applicationContext-trans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomanager/taotao-manager-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/mapper/TbContentCategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/mapper/TbContentCategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/mapper/TbContentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/mapper/TbContentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/mapper/TbItemCatMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/mapper/TbItemCatMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/mapper/TbItemDescMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/mapper/TbItemDescMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/mapper/TbItemMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/mapper/TbItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/mapper/TbItemParamItemMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/mapper/TbItemParamItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/mapper/TbItemParamMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/mapper/TbItemParamMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/mapper/TbOrderItemMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/mapper/TbOrderItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/mapper/TbOrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/mapper/TbOrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/mapper/TbOrderShippingMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/mapper/TbOrderShippingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/mapper/TbUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/mapper/TbUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/pojo/TbContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/pojo/TbContentCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/pojo/TbContentCategoryExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/pojo/TbContentExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/pojo/TbItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/pojo/TbItemCat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/pojo/TbItemCatExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/pojo/TbItemDesc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/pojo/TbItemDescExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/pojo/TbItemExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/pojo/TbItemParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/pojo/TbItemParamExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/pojo/TbItemParamItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/pojo/TbItemParamItemExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/pojo/TbOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/pojo/TbOrderExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/pojo/TbOrderItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/pojo/TbOrderItemExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/pojo/TbOrderShipping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/pojo/TbOrderShippingExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/pojo/TbUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/java/com/taotao/pojo/TbUserExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/mapper/TbContentCategoryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/mapper/TbContentMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/mapper/TbItemCatMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/mapper/TbItemDescMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/mapper/TbItemMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/mapper/TbItemParamItemMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/mapper/TbItemParamMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/mapper/TbOrderItemMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/mapper/TbOrderMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/mapper/TbOrderShippingMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/mapper/TbUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbContentCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbContentCategoryExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbContentCategoryExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbContentCategoryExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbContentCategoryExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbContentExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbContentExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbContentExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbContentExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemCat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemCatExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemCatExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemCatExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemCatExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemDesc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemDescExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemDescExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemDescExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemDescExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemParamExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemParamExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemParamExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemParamExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemParamItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemParamItemExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemParamItemExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemParamItemExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbItemParamItemExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbOrderExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbOrderExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbOrderExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbOrderExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbOrderItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbOrderItemExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbOrderItemExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbOrderItemExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbOrderItemExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbOrderShipping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbOrderShippingExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbOrderShippingExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbOrderShippingExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbOrderShippingExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbUserExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbUserExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbUserExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/com/taotao/pojo/TbUserExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/classes/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/taotao-mybaits-generatorsql.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../ideaProjects/taotao/taotaomybaitsgeneratorsql/target/taotao-mybaits-generatorsql.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotaoparent/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotaoparent/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotaoparent/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotaoparent/taotao-common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotaoparent/taotao-manager/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ideaProjects/taotaoparent/taotao-manager/taotaomanager.iml" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$generateds.coverage" NAME="generateds Coverage Results" MODIFIED="1533259169682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02_tensorflow" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$__init_variable.coverage" NAME="__init_variable Coverage Results" MODIFIED="1532675847356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_mofan" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1533288561500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/models/tutorials/image/cifar10" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$__init_visualization2.coverage" NAME="__init_visualization2 Coverage Results" MODIFIED="1532791264267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_mofan" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$__init_dropout.coverage" NAME="__init_dropout Coverage Results" MODIFIED="1532911677080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_MINIST" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$__autoEncoder.coverage" NAME="__autoEncoder Coverage Results" MODIFIED="1533023499169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_MINIST" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$__init_MINIST02.coverage" NAME="__init_MINIST02 Coverage Results" MODIFIED="1532938767115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_MINIST" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$app.coverage" NAME="app Coverage Results" MODIFIED="1532274334075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter01" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$__init_placeholder.coverage" NAME="__init_placeholder Coverage Results" MODIFIED="1532676095301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_mofan" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$__init_build_neural.coverage" NAME="__init_build_neural Coverage Results" MODIFIED="1532701916354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_mofan" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$__init_CIFAR_download.coverage" NAME="__init_CIFAR_download Coverage Results" MODIFIED="1533288846258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_CIFAR" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$loss.coverage" NAME="loss Coverage Results" MODIFIED="1532597074003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chpater_tensorflow" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$test.coverage" NAME="test Coverage Results" MODIFIED="1533097545680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter01" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$tensorflow.coverage" NAME="tensorflow Coverage Results" MODIFIED="1532332167473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chpater_tensorflow" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$fullConnectionTrainMore.coverage" NAME="fullConnectionTrainMore Coverage Results" MODIFIED="1532693422703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chpater_tensorflow" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$__init_visualization.coverage" NAME="__init_visualization Coverage Results" MODIFIED="1532743274028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_mofan" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$__init_2.coverage" NAME="__init_2 Coverage Results" MODIFIED="1532655676461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_mofan" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$__init_add_layer.coverage" NAME="__init_add_layer Coverage Results" MODIFIED="1532699051446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_mofan" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$__Test02_exchangeCIFAR_Pic.coverage" NAME="__Test02_exchangeCIFAR_Pic Coverage Results" MODIFIED="1533299010459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_CIFAR" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$__init_MINIST_saver.coverage" NAME="__init_MINIST_saver Coverage Results" MODIFIED="1532938593107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_MINIST" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$backword.coverage" NAME="backword Coverage Results" MODIFIED="1533263304264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02_tensorflow" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$__init_MNIST_SAVEDATA_PIC.coverage" NAME="__init_MNIST_SAVEDATA_PIC Coverage Results" MODIFIED="1533265111702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_MINIST" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$__Test_Read.coverage" NAME="__Test_Read Coverage Results" MODIFIED="1533294359641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_CIFAR" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$__init_CIFAR_download02.coverage" NAME="__init_CIFAR_download02 Coverage Results" MODIFIED="1533288772003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_CIFAR" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$__init_MNIST03.coverage" NAME="__init_MNIST03 Coverage Results" MODIFIED="1533086667938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_MINIST" />
+    <SUITE FILE_PATH="coverage/py4d36_chapter01$tensorflow_opt.coverage" NAME="tensorflow_opt Coverage Results" MODIFIED="1532791309323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chpater_tensorflow" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="520" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="494244085">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="30" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="30" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="17" />
+          <entry key="py" value="4347" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="Python" value="4347" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="2122925010">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="BUILD" value="1" />
+          <entry key="README" value="1" />
+          <entry key="jpg" value="21" />
+          <entry key="md" value="4" />
+          <entry key="py" value="92" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="21" />
+          <entry key="Markdown" value="4" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="92" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="10" />
+          <entry key="md" value="478" />
+          <entry key="py" value="13375" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="478" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="13375" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="py4d36_chapter01" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/cifar10.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2969">
+              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+              <folding>
+                <element signature="e#1259#1297#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/cifar10_train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2324">
+              <caret line="122" column="9" lean-forward="true" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
+              <folding>
+                <element signature="e#1325#1363#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/cifar10_input.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="553">
+              <caret line="205" selection-start-line="205" selection-end-line="205" />
+              <folding>
+                <element signature="e#751#789#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="1460" column="8" selection-start-line="1460" selection-start-column="4" selection-end-line="1460" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$/tensorflow_mofan</dir>
+      <dir>/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/socket/testTsServ.py" />
+        <option value="$PROJECT_DIR$/chpater_tensorflow/__init__.py" />
+        <option value="$PROJECT_DIR$/chpater_tensorflow/tf_fullConnection.py" />
+        <option value="$PROJECT_DIR$/chpater_tensorflow/fullConnectionTrain.py" />
+        <option value="$PROJECT_DIR$/tensorflow_mofan/__init_2.py" />
+        <option value="$PROJECT_DIR$/tensorflow_mofan/__init_active_function.py" />
+        <option value="$PROJECT_DIR$/chpater_tensorflow/fullConnectionTrainMore.py" />
+        <option value="$PROJECT_DIR$/tensorflow_mofan/__init_build_neural__.py" />
+        <option value="$PROJECT_DIR$/tensorflow_mofan/__init_visualization2.py" />
+        <option value="$PROJECT_DIR$/tensorflow_mofan/__init_Optimizer.py" />
+        <option value="$PROJECT_DIR$/tensorflow_mofan/__init_variable.py" />
+        <option value="$PROJECT_DIR$/chpater_tensorflow/genertorTrain.py" />
+        <option value="$PROJECT_DIR$/chpater_tensorflow/loss.py" />
+        <option value="$PROJECT_DIR$/tensorflow_opt.py" />
+        <option value="$PROJECT_DIR$/tensorflow_mofan/__init_build_neural.py" />
+        <option value="$PROJECT_DIR$/tensorflow_MINIST/__init__.py" />
+        <option value="$PROJECT_DIR$/tensorflow_MINIST/__init_dropout.py" />
+        <option value="$PROJECT_DIR$/tensorflow_MINIST/__init_MINIST_saver.py" />
+        <option value="$PROJECT_DIR$/chapter01/__init__.py" />
+        <option value="$PROJECT_DIR$/tensorflow_mofan/__init_add_layer.py" />
+        <option value="$PROJECT_DIR$/tensorflow_mofan/__init_Sesion.py" />
+        <option value="$PROJECT_DIR$/tensorflow_mofan/__init_visualization.py" />
+        <option value="$PROJECT_DIR$/tensorflow_mofan/__init_placeholder.py" />
+        <option value="$PROJECT_DIR$/tensorflow_MINIST/__autoEncoder.py" />
+        <option value="$PROJECT_DIR$/tensorflow_MINIST/__init_autoEncoder02.py" />
+        <option value="$PROJECT_DIR$/chapter01/test.py" />
+        <option value="$PROJECT_DIR$/tensorflow_mofan/__init_TensorBoard.py" />
+        <option value="$PROJECT_DIR$/tensorflow_MINIST/__init_MNIST03.py" />
+        <option value="$PROJECT_DIR$/tensorflow_MINIST/__init_MINIST02.py" />
+        <option value="$PROJECT_DIR$/chpater_tensorflow/tensorflow_opt.py" />
+        <option value="$PROJECT_DIR$/chapter02_tensorflow/__init_forward.py" />
+        <option value="$PROJECT_DIR$/chapter02_tensorflow/generateds.py" />
+        <option value="$PROJECT_DIR$/chapter02_tensorflow/forward.py" />
+        <option value="$PROJECT_DIR$/chapter02_tensorflow/backword.py" />
+        <option value="$PROJECT_DIR$/tensorflow_MINIST/__init_MNIST02.py" />
+        <option value="$PROJECT_DIR$/tensorflow_MINIST/__init_MNIST_SAVEDATA_PIC.py" />
+        <option value="$PROJECT_DIR$/tensorflow_mofan/__init__.py" />
+        <option value="$PROJECT_DIR$/tensorflow_MINIST/__init_MNIST01.py" />
+        <option value="$PROJECT_DIR$/tensorflow_MINIST/packageInfo.md" />
+        <option value="$PROJECT_DIR$/tensorflow_CIFAR/README.md" />
+        <option value="$PROJECT_DIR$/tensorflow_CIFAR/__init-CIFAR_download.py" />
+        <option value="$PROJECT_DIR$/tensorflow_CIFAR/__init_CIFAR_download02.py" />
+        <option value="$PROJECT_DIR$/tensorflow_CIFAR/__Test_Read.py" />
+        <option value="$PROJECT_DIR$/tensorflow_CIFAR/__Test02_exchangeCIFAR_Pic.py" />
+        <option value="$PROJECT_DIR$/tensorflow_CIFAR/cifar10_eval.py" />
+        <option value="$PROJECT_DIR$/tensorflow_CIFAR/cifar10_input_test.py" />
+        <option value="$PROJECT_DIR$/tensorflow_CIFAR/cifar10_multi_gpu_train.py" />
+        <option value="$PROJECT_DIR$/tensorflow_CIFAR/cifar10_train.py" />
+        <option value="$PROJECT_DIR$/tensorflow_CIFAR/__init_CIFAR_download.py" />
+        <option value="$PROJECT_DIR$/tensorflow_CIFAR/cifar10.py" />
+        <option value="$PROJECT_DIR$/tensorflow_CIFAR/cifar10_input.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="py4d36_chapter01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py4d36_chapter01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="py4d36_chapter01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py4d36_chapter01" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorflow_CIFAR" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="py4d36_chapter01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py4d36_chapter01" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorflow_CIFAR" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="inputs()&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="py4d36_chapter01" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="py4d36_chapter01" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tensorflow_CIFAR" />
+      <recent name="$PROJECT_DIR$/tensorflow_CIFAR/read" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tensorflow_CIFAR" />
+      <recent name="$PROJECT_DIR$/chpater_tensorflow" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.__Test02_exchangeCIFAR_Pic">
+    <configuration name="__Test02_exchangeCIFAR_Pic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py4d36_chapter01" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow_CIFAR" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow_CIFAR/__Test02_exchangeCIFAR_Pic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__Test_Read" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py4d36_chapter01" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow_CIFAR" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow_CIFAR/__Test_Read.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__init_CIFAR_download" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py4d36_chapter01" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow_CIFAR" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow_CIFAR/__init_CIFAR_download.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__init_CIFAR_download02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py4d36_chapter01" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow_CIFAR" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow_CIFAR/__init_CIFAR_download02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py4d36_chapter01" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/models/tutorials/image/cifar10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/models/tutorials/image/cifar10/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python">
+      <module name="py4d36_chapter01" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter01" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter01/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tensorflow" type="PythonConfigurationType" factoryName="Python">
+      <module name="py4d36_chapter01" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chpater_tensorflow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chpater_tensorflow/tf_fullConnection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.tensorflow" />
+      <item itemvalue="Python.app" />
+      <item itemvalue="Python.__init_CIFAR_download" />
+      <item itemvalue="Python.__init_CIFAR_download02" />
+      <item itemvalue="Python.__init__" />
+      <item itemvalue="Python.__Test_Read" />
+      <item itemvalue="Python.__Test02_exchangeCIFAR_Pic" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.__Test02_exchangeCIFAR_Pic" />
+        <item itemvalue="Python.__Test_Read" />
+        <item itemvalue="Python.__init_CIFAR_download" />
+        <item itemvalue="Python.__init_CIFAR_download02" />
+        <item itemvalue="Python.__init__" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1aa83097-1221-4de6-83ef-2985ca8125d3" name="Default" comment="" />
+      <created>1532190384546</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532190384546</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22460657" />
+      <window_info id="Structure" order="1" weight="0.24964234" />
+      <window_info id="Favorites" order="2" weight="0.3297568" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4951857" weight="0.3253012" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994911" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4950884" weight="0.3908046" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49931225" weight="0.31325302" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3253012" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5006878" side_tool="true" weight="0.2697201" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.47138768" />
+      <window_info anchor="right" x="0" y="0" width="307" height="591" id="Documentation" order="4" side_tool="true" weight="0.70028615" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20386267" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49713877" weight="0.3939759" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4950884" weight="0.3908046" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2554217" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3253012" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5049116" side_tool="true" weight="0.39056358" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.472103" />
+      <window_info anchor="right" x="0" y="0" width="307" height="591" id="Documentation" order="4" side_tool="true" weight="0.7004831" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tensorflow_mofan/__init_add_layer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_mofan/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_MINIST/__init_dropout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="57" selection-start-line="57" selection-end-line="57" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_MINIST/__init_autoEncoder02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2832">
+          <caret line="118" column="30" selection-start-line="118" selection-start-column="30" selection-end-line="118" selection-end-column="30" />
+          <folding>
+            <element signature="e#15#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_MINIST/__init_autoEncoder01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1946" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_MINIST/__init_MNIST01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2303">
+          <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_MINIST/packageInfo.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="14" selection-start-column="14" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/models/tutorials/image/cifar10/BUILD">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/models/tutorials/image/cifar10/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/models/tutorials/image/cifar10/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#753#791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/__init_CIFAR_download02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#165#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/models/tutorials/image/cifar10/cifar10_input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5717" />
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/training/input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="198" column="26" lean-forward="true" selection-start-line="198" selection-start-column="26" selection-end-line="198" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/ops/variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="1592" column="60" lean-forward="true" selection-start-line="1587" selection-start-column="5" selection-end-line="1592" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/training/queue_runner_impl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="411" column="30" lean-forward="true" selection-start-line="411" selection-start-column="30" selection-end-line="411" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/read/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/read/test_15.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/read/test_1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/read/test_2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/read/test_11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/read/test_12.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/read/test_10.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/read/test_9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/read/test_8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/read/test_7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/read/test_6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/read/test_5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/read/test_4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/read/test_3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/ops/gen_io_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-338">
+          <caret line="756" column="25" lean-forward="true" selection-start-line="756" selection-start-column="25" selection-end-line="756" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/ops/io_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="215" column="31" selection-start-line="215" selection-start-column="31" selection-end-line="215" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/12.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/10.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/read/ExchangeOutputDir/0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/__Test02_exchangeCIFAR_Pic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2149">
+          <caret line="113" column="24" lean-forward="true" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
+          <folding>
+            <element signature="e#1968#1991#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/__Test_Read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/cifar10_eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377">
+          <caret line="73" column="14" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+          <folding>
+            <element signature="e#1225#1263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/cifar10_input_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/cifar10_multi_gpu_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/__init_CIFAR_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="905">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#227#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/cifar10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2969">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="e#1259#1297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/cifar10_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2324">
+          <caret line="122" column="9" lean-forward="true" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
+          <folding>
+            <element signature="e#1325#1363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="1460" column="8" selection-start-line="1460" selection-start-column="4" selection-end-line="1460" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1199943127/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="4166" lean-forward="true" selection-start-line="4166" selection-end-line="4166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_CIFAR/cifar10_input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="205" selection-start-line="205" selection-end-line="205" />
+          <folding>
+            <element signature="e#751#789#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
