@@ -1,2 +1,2 @@
-/tmp/cifar10_data/cifar-10-batches-bin/*
-/tmp/cifar10_data/*
+tensorflow_CIFAR/tmp/cifar10_data/cifar-10-batches-bin/*
+/tensorflow_CIFAR/tmp/cifar10_data/*
