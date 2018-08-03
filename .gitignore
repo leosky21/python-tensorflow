@@ -1,1 +1,2 @@
-/temp/
+/tmp/cifar10_data/cifar-10-batches-bin/*
+/tmp/cifar10_data/*
