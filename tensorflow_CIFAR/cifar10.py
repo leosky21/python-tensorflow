@@ -17,7 +17,7 @@
 
 Summary of available functions:
 
-# 用来增加读图片的操作，分别读原始图片和变形后的图片
+# 用来增加读图片的操作;inputs() 和 distorted_inputs() 分别return 原始图片和变形(图像增强)后的图片
  # Compute input images and labels for training. If you would like to run
  # evaluations, use inputs() instead.
  inputs, labels = distorted_inputs()
@@ -50,14 +50,6 @@ import tensorflow as tf
 from tensorflow_CIFAR import cifar10_input
 
 FLAGS = tf.app.flags.FLAGS
-
-tf.app.flags.DEFINE_string('train_dir', '/tmp/cifar10_train',
-                           """Directory where to write event logs """
-                           """and checkpoint.""")
-tf.app.flags.DEFINE_integer('max_steps', 10000,
-                            """Number of batches to run.""")
-tf.app.flags.DEFINE_boolean('log_device_placement', False,
-                            """Whether to log device placement.""")
 
 # Basic model parameters.
 # 基本模型参数
@@ -111,11 +103,11 @@ def _activation_summary(x):
 
 def _variable_on_cpu(name, shape, initializer):
     """Helper to create a Variable stored on CPU memory.
-
+        帮助创建一个在CPU 运存里的变量
   Args:
-    name: name of the variable
-    shape: list of ints
-    initializer: initializer for Variable
+    name: name of the variable # 变量名
+    shape: list of ints # 整数列表
+    initializer: initializer for Variable   # 变量初始化
 
   Returns:
     Variable Tensor
@@ -128,17 +120,18 @@ def _variable_on_cpu(name, shape, initializer):
 
 def _variable_with_weight_decay(name, shape, stddev, wd):
     """Helper to create an initialized Variable with weight decay.
-
+        帮助创建一个权重衰减的初始化变量
   Note that the Variable is initialized with a truncated normal distribution.
   A weight decay is added only if one is specified.
-
+    请注意，变量是用截断的正态分布初始化的
+     只有在指定了权重衰减时才会添加权重衰减
   Args:
-    name: name of the variable
-    shape: list of ints
-    stddev: standard deviation of a truncated Gaussian
+    name: name of the variable # 变量名
+    shape: list of ints # 整数列表
+    stddev: standard deviation of a truncated Gaussian # 截断高斯函数的标准差
     wd: add L2Loss weight decay multiplied by this float. If None, weight
         decay is not added for this Variable.
-
+    # 加上L2的减重衰减乘以这个 float 数。如果None, 不添加该变量的权值衰减。
   Returns:
     Variable Tensor
   """
@@ -212,27 +205,38 @@ def inference(images):
     # tf.Variable() in order to share variables across multiple GPU training runs.
     # If we only ran this model on a single GPU, we could simplify this function
     # by replacing all instances of tf.get_variable() with tf.Variable().
-    #
+
+    # 我们使用tf.get_variable（）而不是tf.Variable（）来实例化所有变量，以便跨多个GPU训练时能共享变量
+    # 如果我们只在单个GPU上运行此模型，我们可以通过用tf.Variable（）替换tf.get_variable（）的所有实例来简化此功能
+    # 每一层都创建于一个唯一的tf.name_scope之下，创建于该作用域之下的所有元素都将带有其前缀
+
     # conv1
     with tf.variable_scope('conv1') as scope:
         kernel = _variable_with_weight_decay('weights',
-                                             shape=[5, 5, 3, 64],
+                                             shape=[5, 5, 3, 64],  # 5*5 的卷积核，64个
                                              stddev=5e-2,
                                              wd=None)
+        # 卷积操作，步长为1，0padding SAME，不改变宽高，通道数变为64
         conv = tf.nn.conv2d(images, kernel, [1, 1, 1, 1], padding='SAME')
+        # 在CPU上创建第一层卷积操作的偏置变量
         biases = _variable_on_cpu('biases', [64], tf.constant_initializer(0.0))
+        # 加上偏置(bias)
         pre_activation = tf.nn.bias_add(conv, biases)
+        # relu非线性激活(激活函数)
         conv1 = tf.nn.relu(pre_activation, name=scope.name)
         _activation_summary(conv1)
 
-    # pool1
+    # pool1-第一层pooling
+    # 3*3 最大池化，步长为2
     pool1 = tf.nn.max_pool(conv1, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1],
                            padding='SAME', name='pool1')
-    # norm1
+
+    # norm1-局部响应归一化
+    # LRN层，对局部神经元的活动创建竞争机制，使得其中响应比较大的值变得相对更大，并抑制其他反馈较小的神经元，增强了模型的泛化能力
     norm1 = tf.nn.lrn(pool1, 4, bias=1.0, alpha=0.001 / 9.0, beta=0.75,
                       name='norm1')
 
-    # conv2
+    # conv2-第二层卷积
     with tf.variable_scope('conv2') as scope:
         kernel = _variable_with_weight_decay('weights',
                                              shape=[5, 5, 64, 64],
@@ -244,16 +248,17 @@ def inference(images):
         conv2 = tf.nn.relu(pre_activation, name=scope.name)
         _activation_summary(conv2)
 
-    # norm2
+    # norm2-局部响应归一化
     norm2 = tf.nn.lrn(conv2, 4, bias=1.0, alpha=0.001 / 9.0, beta=0.75,
                       name='norm2')
-    # pool2
+    # pool2-第二层最大池化
     pool2 = tf.nn.max_pool(norm2, ksize=[1, 3, 3, 1],
                            strides=[1, 2, 2, 1], padding='SAME', name='pool2')
 
-    # local3
+    # local3-全连接层，384个节点
     with tf.variable_scope('local3') as scope:
         # Move everything into depth so we can perform a single matrix multiply.
+        # 把单个样本拉成一个列向量,便于矩阵乘法
         reshape = tf.reshape(pool2, [images.get_shape().as_list()[0], -1])
         dim = reshape.get_shape()[1].value
         weights = _variable_with_weight_decay('weights', shape=[dim, 384],
@@ -262,7 +267,7 @@ def inference(images):
         local3 = tf.nn.relu(tf.matmul(reshape, weights) + biases, name=scope.name)
         _activation_summary(local3)
 
-    # local4
+    # local4-全连接层 192节点
     with tf.variable_scope('local4') as scope:
         weights = _variable_with_weight_decay('weights', shape=[384, 192],
                                               stddev=0.04, wd=0.004)
@@ -274,11 +279,13 @@ def inference(images):
     # We don't apply softmax here because
     # tf.nn.sparse_softmax_cross_entropy_with_logits accepts the unscaled logits
     # and performs the softmax internally for efficiency.
+    # 全连接 + softmax分类
     with tf.variable_scope('softmax_linear') as scope:
         weights = _variable_with_weight_decay('weights', [192, NUM_CLASSES],
                                               stddev=1 / 192.0, wd=None)
         biases = _variable_on_cpu('biases', [NUM_CLASSES],
                                   tf.constant_initializer(0.0))
+        # 输出变换前的logit
         softmax_linear = tf.add(tf.matmul(local4, weights), biases, name=scope.name)
         _activation_summary(softmax_linear)
 
@@ -287,12 +294,12 @@ def inference(images):
 
 def loss(logits, labels):
     """Add L2Loss to all the trainable variables.
-
+    # 描述损失函数(目标函数)
   Add summary for "Loss" and "Loss/avg".
   Args:
-    logits: Logits from inference().
+    logits: Logits from inference(). # 来自inference（）的Logits
     labels: Labels from distorted_inputs or inputs(). 1-D tensor
-            of shape [batch_size]
+            of shape [batch_size]  # 来自 distorted_inputs() 或者  inputs()的一维张量, shape:[batch_size]
 
   Returns:
     Loss tensor of type float.

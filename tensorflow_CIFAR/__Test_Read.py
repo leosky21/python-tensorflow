@@ -1,8 +1,6 @@
 # coding: utf-8
-"""
+"""Aim :  test  principle of data_reading of TensorFlow
 
-
-   - Aim :  test  principle of data_reading of TensorFlow
    - Run : open Terminal and 'cd' to current dir and  'python3  __test_Read'
    - version:
         - tensorflow 1.8.0
@@ -17,8 +15,7 @@ import tensorflow as tf
 with tf.Session() as sess:
     # files to be read
     fileName = ['A.jpg', 'B.jpg', 'C.jpg']
-    '''
-        to create a queue for the list of pics to be read
+    ''' to create a queue for the list of pics to be read
         ===============================================================
         list: list of files
         shuffle: 
@@ -29,8 +26,7 @@ with tf.Session() as sess:
            if there are three pictures , it will be 15 pics
     '''
     fileName_queue = tf.train.string_input_producer(fileName, shuffle=False, num_epochs=5)
-    '''
-        read data from queue of fileName. Corresponding method is reader.read()
+    ''' read data from queue of fileName. Corresponding method is reader.read()
         ======================================================================
         queue: the queue which is be translated by string_input_producer with list of filename
         name : default None 
@@ -38,8 +34,7 @@ with tf.Session() as sess:
     reader = tf.WholeFileReader()
     key, value = reader.read(fileName_queue)
 
-    """
-    from variables.py
+    """from variables.py
     ======================================================================
     Returns an Op that initializes all local variables.
 
@@ -47,7 +42,7 @@ with tf.Session() as sess:
     
       Returns:
         An Op that initializes all local variables in the graph.
-    ==========
+    ======================================================================
     if initialize by mistake , python will throws this error 
     Exception in QueueRunner: 
         Attempting to use uninitialized value input_producer/limit_epochs/epochs

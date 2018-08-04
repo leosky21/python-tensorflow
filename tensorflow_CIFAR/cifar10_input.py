@@ -33,7 +33,7 @@ IMAGE_SIZE = 24
 
 # Global constants describing the CIFAR-10 data set.
 NUM_CLASSES = 10
-NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN = 50000
+NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN = 50000  # 训练初始化时初始填充到队列中图片数量
 NUM_EXAMPLES_PER_EPOCH_FOR_EVAL = 10000
 
 
@@ -44,17 +44,19 @@ def read_cifar10(filename_queue):
   N times.  This will give you N independent Readers reading different
   files & positions within those files, which will give better mixing of
   examples.
-
+  建议:
+    如果您想要N路并行读取，请调用此函数N次
+    这会给你N个独立的Readers，阅读那些文件中不同的文件和位置，这将提供更好的混合例子
   Args:
     filename_queue: A queue of strings with the filenames to read from.
-
+    filename_queue: 要读取的文件队列
   Returns:
     An object representing a single example, with the following fields:
-      height: number of rows in the result (32)
-      width: number of columns in the result (32)
-      depth: number of color channels in the result (3)
+      height: number of rows in the result (32) # 结果中的行数
+      width: number of columns in the result (32) # 结果中的列数
+      depth: number of color channels in the result (3) # 结果中的通道数(alpha)
       key: a scalar string Tensor describing the filename & record number
-        for this example.
+        for this example. #
       label: an int32 Tensor with the label in the range 0..9.
       uint8image: a [height, width, depth] uint8 Tensor with the image data
   """
@@ -113,7 +115,7 @@ def read_cifar10(filename_queue):
 def _generate_image_and_label_batch(image, label, min_queue_examples,
                                     batch_size, shuffle):
     """Construct a queued batch of images and labels.
-
+  建立一个label+image的文件队列
   Args:
     image: 3-D Tensor of [height, width, 3] of type.float32.
     label: 1-D Tensor of type.int32
@@ -128,6 +130,7 @@ def _generate_image_and_label_batch(image, label, min_queue_examples,
   """
     # Create a queue that shuffles the examples, and then
     # read 'batch_size' images + labels from the example queue.
+    # 建立一个 混合样本的队列, 然后从中读取batch_size大小的image+label的图像队列
     num_preprocess_threads = 16
     if shuffle:
         images, label_batch = tf.train.shuffle_batch(
@@ -144,6 +147,7 @@ def _generate_image_and_label_batch(image, label, min_queue_examples,
             capacity=min_queue_examples + 3 * batch_size)
 
     # Display the training images in the visualizer.
+    # 可视化器中查看训练的图片
     tf.summary.image('images', images)
 
     return images, tf.reshape(label_batch, [batch_size])
@@ -151,7 +155,7 @@ def _generate_image_and_label_batch(image, label, min_queue_examples,
 
 def distorted_inputs(data_dir, batch_size):
     """Construct distorted input for CIFAR training using the Reader ops.
-
+        并加入了图像增强处理
   Constant:
     # 从 CIFAR-10 中导入数据和标签 #
     IMAGE_SIZE = 24
@@ -201,29 +205,36 @@ def distorted_inputs(data_dir, batch_size):
 
         # Because these operations are not commutative, consider randomizing
         # the order their operation.
+        # 以内这些操作都是不可逆的,所以考虑随机化这些操作
+
         # NOTE: since per_image_standardization zeros the mean and makes
         # the stddev unit, this likely has no effect see tensorflow#1458.
-
+        # 请注意,由于 per_image_standardization的均值和 stddev unit 都将是0,这可能会没什么效果
         distorted_image = tf.image.random_brightness(distorted_image,
                                                      max_delta=63)
         distorted_image = tf.image.random_contrast(distorted_image,
                                                    lower=0.2, upper=1.8)
 
         # Subtract off the mean and divide by the variance of the pixels.
+        # 减去均值, 除以像素的方差
         float_image = tf.image.per_image_standardization(distorted_image)
 
         # Set the shapes of tensors.
+        # 设置张量的shape. RGB图像,所以值是3, 灰阶图像则是1
         float_image.set_shape([height, width, 3])
         read_input.label.set_shape([1])
 
         # Ensure that the random shuffling has good mixing properties.
+        # 保证随机置换(shuffling)有良好的混合型
         min_fraction_of_examples_in_queue = 0.4
+        # NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN: 训练初始化时初始填充到队列中图片数量
         min_queue_examples = int(NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN *
                                  min_fraction_of_examples_in_queue)
         print('Filling queue with %d CIFAR images before starting to train. '
               'This will take a few minutes.' % min_queue_examples)
 
     # Generate a batch of images and labels by building up a queue of examples.
+    # 通过建立一个样本队列来生成一批image和label
     return _generate_image_and_label_batch(float_image, read_input.label,
                                            min_queue_examples, batch_size,
                                            shuffle=True)
@@ -231,7 +242,7 @@ def distorted_inputs(data_dir, batch_size):
 
 def inputs(eval_data, data_dir, batch_size):
     """Construct input for CIFAR evaluation using the Reader ops.
-
+    未加入图像增强处理, 原图剪裁
   Args:
     eval_data: bool, indicating if one should use the train or eval data set.
     data_dir: Path to the CIFAR-10 data directory.
@@ -266,6 +277,7 @@ def inputs(eval_data, data_dir, batch_size):
 
         # Image processing for evaluation.
         # Crop the central [height, width] of the image.
+        # 将图片的中心剪裁出来,从 32*32 扣成 24*24
         resized_image = tf.image.resize_image_with_crop_or_pad(reshaped_image,
                                                                height, width)
 
